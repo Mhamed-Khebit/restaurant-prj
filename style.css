@@ -1,0 +1,577 @@
+
+
+* {
+    font-family: 'Open Sans',sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 900px;
+    align-items: center;
+    margin-top: 22px;
+    
+}
+.h2Logo {
+    color: rgb(185, 183, 183);
+    font-size: 33px;
+    cursor: pointer;
+    font-family: "Ubuntu Sans", sans-serif;
+    margin-left: 24px;
+}
+i {
+    font-size: 27px;
+    cursor: pointer;
+    color: rgb(47, 47, 47);
+    margin-right: 30px;
+}
+
+
+/* section */
+section {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.Title {
+    font-size: 82px;
+    margin-left: 10px;
+    
+}
+.pClr {
+    color: rgb(235, 39, 39);
+    font-family: "Ubuntu Sans", sans-serif;
+    margin-left: 3px;
+
+}
+.parag1 {
+    font-size: 17px;
+    color: rgb(74, 74, 74);
+    line-height: 31px;
+    margin-left: 22px;
+    font-weight: 200;
+    
+}
+.box1 {
+    margin-left: 12px;
+    
+}
+.box2 {
+    margin-right: 23px;
+    
+}
+
+.img {
+    width: 500px;
+    margin-right: 10px;
+    
+ 
+}
+
+.btn1 {
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(235, 39, 39) ;
+    border: none;
+    padding: 11px 50px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 24px;
+}
+.btn1:hover {
+    background-color: rgb(24, 24, 24);
+    transition: 0.3s;
+}
+
+.box3 {
+   margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    
+
+
+}
+
+
+.img-container {
+    width: 253px;
+    height: 16rem;
+}
+
+.image-food {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.image-food:hover {
+    transform: scale(1.1);
+    transition: 0.1s ;
+   
+}
+
+
+
+
+
+.cont-images {
+    background-color: rgb(232, 229, 229);
+   
+    
+
+}
+.red-img {
+    height: 735px;
+    margin-right: 80px;
+}
+
+.red {
+    width: 280px;
+    margin-left: 740px;
+    margin-top: 30px;
+    position: absolute;
+ 
+}
+.imgG {
+    width: 670px;
+    clip-path: inset(0% 10% 0% 10%);
+    margin-top: 150px;
+    margin-left: 275px;
+    position: relative;
+   
+    
+
+}
+
+
+.cart1 {
+    background-color: white;
+    position: absolute;
+    top: 1270px;
+    width: 347px;
+    height: 430px;
+    margin-left: 54px;
+    text-align: left;
+   
+
+    
+}
+
+.h1P {
+    margin-top: 37px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    font-size: 30px;
+    color: black;
+    
+    
+}
+.parag2 {
+    font-size: 19px;
+    margin-left: 35px;
+    color: rgb(55, 55, 55);
+    line-height: 26px;
+    margin-right: 20px;
+    line-height: 31px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+   
+}
+
+.btn2 {
+        margin-top: 30px;
+        color: white;
+        background-color: rgb(235, 39, 39) ;
+        border: none;
+        padding: 13px 37px;
+        border-radius: 100px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: 35px;
+        font-weight: 400; 
+}
+.btn2:hover {
+    background-color: rgb(24, 24, 24);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+.bck-cont {
+    margin-top: 0px;
+    background-image: url('backg.jpg') , url('suit.jpg') , url('suit.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+
+    
+}
+
+.allDiv1 {
+    margin-top: 362px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    color: white;
+    
+    
+}
+.allDiv2 {
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    color: white;
+}
+
+.divc {
+    background-color: rgb(41, 41, 41);
+    width: 330px;
+    height: 260px;
+    align-items: center;
+    text-align: left;
+    
+}
+.num {
+    
+    background-color: rgb(234, 5, 5);
+    padding: 12px;
+    font-size: 40px;
+    border-radius: 95%;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-style: italic;
+    margin-right: 10px;
+    
+}
+
+.h1menu {
+    margin-top: 42px;
+    margin-bottom: 26px;
+    letter-spacing: 3px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 27px;
+    
+}
+
+
+
+
+.pCont {
+    color: rgb(173, 173, 173);
+    margin-left: 27px;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.learnA {
+    color: white;
+    
+    margin-left: 27px;
+}
+
+.h3Don , .aText {
+    color: rgb(221, 221, 221);
+    font-size: 12px;
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+@media (max-width: 650px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+   
+
+   
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 240px;
+        
+    }
+   
+
+   
+    .box1{
+        width: 340px;
+    }
+    .sect1 {
+        display: contents;
+    }
+
+    .pClr , .Title {
+        margin-top: 70px;
+        font-size: 48px;
+    }
+
+    .parag1 {
+        margin-top: 35px;
+        font-size: 16px;
+    }
+
+    .btn1 {
+        width: 185px;
+        height: 47px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .img {
+        width: 340px;
+        margin-top: 110px;
+        margin-left: 28px;
+        margin-bottom: 66px;
+    }
+   
+
+    .box3 {
+        flex-direction: column;
+        border: 1px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .img-container  {
+        width: 295px;
+        
+    }
+
+
+    .red {
+        width: 185px;
+        margin-left: 440px;
+        
+    }
+    .imgG {
+        clip-path: inset(0% 30% 0% 30%);
+        margin-left: 95px;
+        margin-top: 100px;
+    }
+    .cart1 {
+        margin-left: 240px;
+        width: 220px;
+        height: 480px;
+        margin-top: 1133px;
+        margin-bottom: 30px;
+    }
+    .h1P {
+        margin-left: 10px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .parag2 {
+        font-size: 19px;
+        margin-left: 14px;
+        color: rgb(55, 55, 55);
+        line-height: 27px;
+        
+    }
+    .cont-images {
+       padding-bottom: 50px;
+    }
+    .btn2 {
+        margin-left: 15px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-top: 21px;
+    }
+    
+
+
+
+    .allDiv1 {
+        
+        
+        display: contents;
+        
+    }
+    .allDiv2 {
+        display: contents;
+    }
+    .allDiv {
+        margin-top: 300px;
+    }
+    .bck-cont {
+        background: url('backg.jpg') , url('suit.jpg'), url('suit.jpg') , linear-gradient(rgb(27, 26, 26), rgb(23, 22, 22));
+        background-size: contain ;
+        background-repeat: no-repeat;
+    }
+   
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 650px) and (max-width : 1030px) {
+
+
+
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+    
+       
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 280px;
+            
+        }
+       
+    
+       
+        .box1{
+            width: 380px;
+        }
+       
+    
+        .pClr , .Title {
+            margin-top: 70px;
+            font-size: 48px;
+        }
+    
+        .parag1 {
+            margin-top: 35px;
+            font-size: 17px;
+        }
+    
+        .btn1 {
+            width: 185px;
+            height: 47px;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+        .img {
+            width: 290px;
+            margin-top: 110px;
+            margin-left: 50px;
+            margin-bottom: 66px;
+        }
+       
+    
+        .box3 {
+            flex-direction: column;
+            border: 1px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .img-container  {
+            width: 295px;
+            
+        }
+    
+    
+        .red {
+            width: 185px;
+            margin-left: 440px;
+            
+        }
+        .imgG {
+            clip-path: inset(0% 30% 0% 30%);
+            margin-left: 95px;
+            margin-top: 100px;
+        }
+        .cart1 {
+            margin-left: 200px;
+            width: 220px;
+            height: 480px;
+            margin-top: 800px;
+            margin-bottom: 30px;
+        }
+        .h1P {
+            margin-left: 10px;
+            font-size: 24px;
+            font-weight: 800;
+        }
+        .parag2 {
+            font-size: 19px;
+            margin-left: 14px;
+            color: rgb(55, 55, 55);
+            line-height: 27px;
+            
+        }
+        .cont-images {
+           padding-bottom: 50px;
+        }
+        .btn2 {
+            margin-left: 15px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-top: 21px;
+        }
+        
+    
+    
+    
+        .allDiv1 {
+            
+            
+            display: contents;
+            
+        }
+        .allDiv2 {
+            display: contents;
+        }
+        .allDiv {
+            margin-top: 300px;
+        }
+        .bck-cont {
+            background: url('backg.jpg') , url('suit.jpg'), url('suit.jpg') , linear-gradient(rgb(27, 26, 26), rgb(23, 22, 22));
+            background-size: contain ;
+            background-repeat: no-repeat;
+        }
+
+
+
+
+
+}
